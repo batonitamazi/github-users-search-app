@@ -1,13 +1,13 @@
+import React, {useContext} from 'react'
+import {themeContext} from './providers/theme.provider'
+import MainCard from './components/MainCard'
 import './App.css';
-import {ThemeProvider} from './providers/theme.provider'
-import Container from './components/Container';
 
 function App() {
+  const {darkMode} = useContext(themeContext)
   return (
-    <div className='App'>
-      <ThemeProvider>
-        <Container />
-      </ThemeProvider>
+    <div className={darkMode ? `Container Container-dark` : `Container Container-light`}>
+        <MainCard />
     </div>
   );
 }

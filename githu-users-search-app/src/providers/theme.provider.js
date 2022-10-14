@@ -4,7 +4,7 @@ const   themeContext = createContext();
 
 
 const ThemeProvider = (props) => {
-    const [darkMode, setDarkmode] = useState(true);
+    const [darkMode, setDarkmode] = useState(false);
     const toggleDarkMode = () => {
         setDarkmode(!darkMode);
     };

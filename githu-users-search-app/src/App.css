@@ -1,6 +1,17 @@
 html {
-  font-family: "Space Mono"
+  font-family: 'Space Mono';
 } 
+:root {
+  --bg-light: #F6F8FF;
+  --bg-dark: #2B3442;
+
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
 .App {
   text-align: center;
 }
@@ -13,10 +24,10 @@ html {
   align-items: center;
 }
 .Container-dark {
-  background-color: #2B3442;
+  background-color: var(--bg-dark);
 }
 .Container-light {
-  background-color: #F6F8FF;
+  background-color: var(--bg-light);
 }
 .toggle--button {
   width: 78px;
@@ -29,10 +40,32 @@ html {
   background-repeat:no-repeat;
   background-color: transparent;
   font-family: 'Space Mono';
+  cursor: pointer;
 }
 .toggle--light {
   color: #FFFFFF;
 }
 .toggle--dark {
   color: #697C9A;
+}
+.toggle-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main--container {
+  width: 53%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-light {
+  font-size: 26px;
+}
+.header-dark {
+  font-size: 26px;
 }
