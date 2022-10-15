@@ -9,7 +9,6 @@ html {
   --bg-dark-cards: #1E2A47;
   --bg-blue: #0079FF;
   --bg-greyblue: #4B6A9B;
-
 }
 *{
   padding: 0px;
@@ -66,7 +65,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between;;
 }
 .header-light {
   font-size: 26px;
@@ -151,6 +150,7 @@ html {
   background-color: var(--bg-white);
 }
 .avatar--image {
+  width: 20%;
   border-radius: 100%;
 }
 .user--info {
@@ -236,4 +236,23 @@ html {
   height: 20%;
   display: flex;
   flex-direction: row;
+}
+.extra--subinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mini--info {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.toggle--dark-img {
+  fill: var(--bg-white);
+}
+.error--message {
+  font-size: 15px;
+  color: #F74646;
 }
