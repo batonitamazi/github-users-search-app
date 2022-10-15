@@ -1,4 +1,5 @@
 import React from 'react'
+import UserContainer from './aboutUser/UserContainer'
 import SearchContainer from './SearchContainer'
 import ToggleContainer from './ToggleContainer'
 
@@ -7,6 +8,7 @@ function MainCard() {
     <div className='main--container'>
         <ToggleContainer />
         <SearchContainer />
+        <UserContainer />
     </div>
   )
 }
