@@ -188,7 +188,7 @@ html {
   align-items: flex-end;
   width: 75%;
   height: 70%;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 .header--paragraph {
   font-size: 15px;
@@ -307,8 +307,7 @@ html {
   }
   .second--information {
     position: absolute;
-
-    margin-top: 190px;
+    margin-top: 120px;
     width: 100%;
 
   }
@@ -323,9 +322,6 @@ html {
     width: 90%;
     height: 95%;
   }
-  .info--container {
-    align-items: center;
-  }
   .extra--info-card {
     flex-direction: column;
     justify-content: space-between;
@@ -336,6 +332,7 @@ html {
     height: 100%;
   }
   .info--container {
+    align-items: center;
     padding: 0px;
     height: 100%;
     flex-direction: column;
@@ -346,8 +343,8 @@ html {
     gap: 5%;
   }
   .avatar--image {
-    height: 80%;
-    width: 30%;
+    height: 60%;
+    width: 20%;
   }
   .parent--subheader {
     gap: 7%;
@@ -359,7 +356,8 @@ html {
   }
   .second--information {
     justify-content: flex-start;
-    gap: 10%;
+    gap: 5%;
+    margin-top: 120px;
   }
   .search--input-dark {
     font-size: 13px;
