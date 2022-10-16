@@ -1,7 +1,3 @@
-html {
-  font-family: 'Space Mono';
-} 
-
 :root {
   --bg-light: #F6F8FF;
   --bg-dark: #141D2F;
@@ -146,7 +142,7 @@ html {
   margin-top: 20px;
 }
 .info--container-dark {
-  background-color: var(--bg-dark-cards)
+  background-color: var(--bg-dark-cards);
 }
 .info--container-light {
   background-color: var(--bg-white);
