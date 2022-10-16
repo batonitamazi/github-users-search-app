@@ -60,12 +60,12 @@ html {
   align-items: center;
 }
 .main--container {
-  width: 53%;
+  width: 63%;
   height: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;;
+  justify-content: flex-start;
 }
 .header-light {
   font-size: 26px;
@@ -85,6 +85,7 @@ html {
   align-items: center;
   justify-content: space-between;
   border-radius: 15px;
+  margin-top: 20px;
 
 }
 .search--card {
@@ -142,6 +143,7 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+  margin-top: 20px;
 }
 .info--container-dark {
   background-color: var(--bg-dark-cards)
@@ -154,24 +156,41 @@ html {
   border-radius: 100%;
 }
 .user--info {
-  width: 65%;
+  width: 90%;
   height: 90%;
-  padding-top: 4px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: space-between;
 }
 .user--info-header {
   width: 100%;
-  height: 30%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.parent--subheader {
+  width: 75%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20%;
+}
+.second--information {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
+  width: 75%;
+  height: 100%;
 }
 .header--paragraph {
   font-size: 15px;
   font-weight: 400;
+  line-height: 25px
+
 }
 .header--paragraph-light {
   color: var(--bg-greyblue)
@@ -207,10 +226,11 @@ html {
   background-color: var(--bg-light);
 }
 .sub--info {
-  height: 50%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly;
 }
 .sub--info-par {
@@ -248,6 +268,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 5%;
 }
 .toggle--dark-img {
   fill: var(--bg-white);
@@ -255,4 +276,110 @@ html {
 .error--message {
   font-size: 15px;
   color: #F74646;
+}
+
+@media (width< 1200px){
+  .main--container {
+    width: 80%;
+    height: 90%;
+  }
+  .second--information {
+    width: 100%;
+  }
+  .general--info-card {
+    height: 40%;
+  }
+  .mini--info {
+    width: 80%;
+  }
+  .search--container {
+    height: 10%
+  }
+  .second--information {
+    margin-top: 20px;
+  }
+}
+@media (width< 700px){
+  .main--container {
+    width: 90%;
+    height: 95%;
+  }
+  .info--container {
+    align-items: center;
+  }
+  .extra--info-card {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    gap: 10%;
+  } 
+  .extra--subinfo {
+    height: 100%;
+  }
+  .info--container {
+    padding: 0px;
+    height: 100%;
+    flex-direction: column;
+  }
+  .user--info-header {
+    height: 20%;
+    justify-content: space-around;
+    gap: 5%;
+  }
+  .avatar--image {
+    height: 80%;
+    width: 30%;
+  }
+  .parent--subheader {
+    gap: 7%;
+  }
+  .sub--header {
+    height: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .second--information {
+    justify-content: flex-start;
+    gap: 10%;
+  }
+  .search--input-dark {
+    font-size: 13px;
+  }
+  .search--container {
+    height: 8%;
+  }
+  .search--input-light {
+    font-size: 13px;
+  }
+  .search--button {
+    width: 25%;
+    font-size: 14px;
+  }
+  .general--info-card {
+    height: 22%;
+  }
+  .sub--info {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+  }
+  .header--paragraph {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .header-light  {
+    font-size: 16px;
+  }
+  .header-dark {
+    font-size: 16px;
+  }
+  .user--link {
+    font-size: 13px;
+  }
+  .mini--info {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 5%;
+  }
+  
 }
