@@ -60,7 +60,7 @@ html {
   align-items: center;
 }
 .main--container {
-  width: 63%;
+  width: 57%;
   height: 75%;
   display: flex;
   flex-direction: column;
@@ -162,6 +162,8 @@ html {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
+  position: relative;
+
 }
 .user--info-header {
   width: 100%;
@@ -179,12 +181,14 @@ html {
   gap: 20%;
 }
 .second--information {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
   width: 75%;
-  height: 100%;
+  height: 70%;
+  margin-top: 120px;
 }
 .header--paragraph {
   font-size: 15px;
@@ -284,11 +288,16 @@ html {
     width: 80%;
     height: 90%;
   }
-  .second--information {
-    width: 100%;
+  .avatar--image {
+    height: 70%;
+    width: 20%;
+  }
+  .user--info {
+    position: relative;
+    justify-content: flex-start;
   }
   .general--info-card {
-    height: 40%;
+    height: 30%;
   }
   .mini--info {
     width: 80%;
@@ -297,7 +306,16 @@ html {
     height: 10%
   }
   .second--information {
-    margin-top: 20px;
+    position: absolute;
+
+    margin-top: 190px;
+    width: 100%;
+
+  }
+  .sub--header {
+    height: 40%;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (width< 700px){
