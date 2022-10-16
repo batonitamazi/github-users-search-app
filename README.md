@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live Project](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/batonitamazi/github-users-search-app/tree/main/githu-users-search-app)
+- Live Site URL: [Live Project](https://fanciful-froyo-6d7a24.netlify.app/)
 
 
 ### Built with
