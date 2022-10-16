@@ -14,10 +14,10 @@ Users should be able to:
 
 ### Screenshot
 
-![darkTheme](./screenshots/darkTheme.png)
-![desktop](./screenshots/desktop.png)
-![mobile](./screenshots/mobile.png)
-![tablet](./screenshots/tablet.png)
+![](.public/screenshots/darkTheme.png)
+![](.public/screenshots/desktop.png)
+![](.public/screenshots/mobile.png)
+![](.public/screenshots/tablet.png)
 
 ### Links
 
